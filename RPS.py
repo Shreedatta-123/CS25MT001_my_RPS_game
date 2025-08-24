@@ -7,3 +7,6 @@ Both players reveal their selection to the other player at once; the winner is c
 based on what the selections are. Rock beats scissors (by crushing them); scissors
 beats paper (by cutting it); and paper beats rock (by covering it). If both players select
 the same one, it is a tie""")
+    selection = ["rock", "paper", "scissors"]
+    computer_choice = random.choice(selection)
+    user_choice = input("Enter your choice (rock, paper, scissors): ")
