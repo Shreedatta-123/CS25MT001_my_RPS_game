@@ -10,3 +10,9 @@ the same one, it is a tie""")
     selection = ["rock", "paper", "scissors"]
     computer_choice = random.choice(selection)
     user_choice = input("Enter your choice (rock, paper, scissors): ")
+    while True:
+        if user_choice not in selection:
+            user_choice = input("Invalid choice. Please enter rock, paper, or scissors (lowercase): ")
+            continue
+            print(f"Computer chose: {computer_choice}")
+        
