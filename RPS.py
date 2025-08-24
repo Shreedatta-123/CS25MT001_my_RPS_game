@@ -17,6 +17,7 @@ the same one, it is a tie""")
             print(f"Computer chose: {computer_choice}")
         if user_choice == computer_choice:
             print("It's a tie!")
+            user_choice = input("Enter your choice (rock, paper, scissors): ")
         elif (user_choice == "rock" and computer_choice == "scissors") or \
             (user_choice == "paper" and computer_choice == "rock") or \
             (user_choice == "scissors" and computer_choice == "paper"):
